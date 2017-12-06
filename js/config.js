@@ -2,16 +2,9 @@
 
 Reveal.initialize({
 
-	// width: '1500',
-	// height: '900',
-
-	width: '1000',
-	height: '700',
-	margin: '0.2',
-
 	progress: true,
 	overview: true,
-	transition: 'cube',
+	transition: 'slide',
 	hideAddressBar: true,
 
 	dependencies: [
