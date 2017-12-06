@@ -93,24 +93,21 @@ Today, HPN w/t DPDK is not introduction to NW.
 
 ### System Design
 
-- Compute:
-  - VM
-  - Container
-  - Baremetal
-- vNIC:
-  - PCI-passthrough
-  - PCI-passthrough SR-IOV
-  - virtio
-- Service-chain:
-  - SR-IOV
-  - OvS
-  - OvS-dpdk
+![](img/img0.png)
+
+----
+
+### System Design
+
+| Parameter | Element                     |
+| --------  | --------------------------- |
+| compute   | KVM,Docker,Baremetal        |
+| network   | PCI-PT,SR-IOV,vHost         |
+| chain     | SR-IOV,OvS,OvS-dpdk         |
 
 ----
 
 ### Computing
-
-
 
 | Column 1  | Column 2 |
 | --------  | -------- |
@@ -153,14 +150,22 @@ Today, HPN w/t DPDK is not introduction to NW.
 
 ### Experiment
 
-- prepare
-  - compare basic elements
-- NFV Experiment
-  - 3-10 nf chaining
+- Compare basic elements (prepare)
+- NFV Experiment (3-10 nf chaining)
 
 ----
 
+### Compare basic elements
+
 ![](https://i.imgur.com/GhRTMFD.png)
+
+----
+
+### NFV Experiment
+
+![](img/nfv.png)
+
+- これから頑張ります!
 
 ---
 
